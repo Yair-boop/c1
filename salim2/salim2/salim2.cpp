@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <cmath>
+#include <iomanip>
 #include <string>
 
 using namespace std;
@@ -16,7 +17,11 @@ int main()
 	cin >> num2;
 
 	cout << num1 / num2 << endl;
-	
+	cout << num1 % num2 << endl;
+
+	double num3 = num1;
+	double num4 = num2;
+	cout << setprecision(3) << num3 / num4 << endl;
 
 	return 0;
 }
