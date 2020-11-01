@@ -9,15 +9,14 @@ using namespace std;
 
 int main()
 {
-	double num1, num2;
-	num1 = 1;
-	num2 = 2;
-	if (num1 <= 0) {
-		cout << "The first number is 0 or less" << endl;
-	}
-	else if (num1 > 0) {
-		cout << num1 / num2 << endl;
-	}
+	int num1, num2;
+	cout << "Enter first number: ";
+	cin >> num1;
+	cout << "Enter second number: ";
+	cin >> num2;
+
+	cout << num1 / num2 << endl;
+	
 
 	return 0;
 }
