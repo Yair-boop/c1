@@ -8,7 +8,7 @@
 
 using namespace std;
 
-int main()
+void ex1()
 {
 	int num1, num2;
 	cout << "Enter first number: ";
@@ -23,7 +23,10 @@ int main()
 	double num4 = num2;
 	cout << setprecision(3) << num3 / num4 << endl;
 
-	return 0;
+}
+int main()
+{
+	ex1();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
